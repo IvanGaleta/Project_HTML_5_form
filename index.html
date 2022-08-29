@@ -3,42 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=вум, initial-scale=1.0">
-    <title>Первая страница</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Form Register</title>
 </head>
 <body>
-    <a href="#">Home</a>
-    <a href="assets/page/contacs.html">Contacs</a>
-    <h1>Это первая страница</h1>
-    <h2>Несколько примеров</h2>
-    <div>
-        <p>
-            <i>
-                Lrem Ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit labore animi sapiente dolorum. Est vero dolor, ipsa architecto iure, culpa molestiae officiis vitae aliquam, nihil unde consequuntur ullam perferendis.
-            </i>
-        </p>
-    </div>
-    <img src="/assets/img/1556708032_1.jpg" alt="Дерево" title="Дерево">
-    <div>
-        <p>
-            Lorem ipsum dolor, <i>sit amet</i> consectetur adipisicing elit. Ipsa, sequi ipsam? Est voluptatum enim quia officiis sunt labore. Ipsa quis atque doloremque labore quo officiis sed totam numquam recusandae error?
-            <b>Lorem dolor sit</b> , amet consectetur adipisicing elit. In magni esse numquam, magnam quis accusamus temporibus veritatis harum non expedita quibusdam a illo similique nisi fugiat sed hic fugit dignissimos?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tenetur optio consequuntur soluta. Itaque, perferendis. Et fugiat at molestiae veniam neque, nam, iusto quaerat esse itaque quas voluptatibus error vero.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptate facere cum deleniti autem, sapiente et deserunt corporis voluptatem. Molestias et rerum veritatis iste consequatur, sed tempora placeat cumque dignissimos.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sequi ipsam? Est voluptatum enim quia officiis sunt labore. Ipsa quis atque doloremque labore quo officiis sed totam numquam recusandae error?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In magni esse numquam, magnam quis accusamus temporibus veritatis harum non expedita quibusdam a illo similique nisi fugiat sed hic fugit dignissimos?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tenetur optio consequuntur soluta. Itaque, perferendis. Et fugiat at molestiae veniam neque, nam, iusto quaerat esse itaque quas voluptatibus error vero.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptate facere cum deleniti autem, sapiente et deserunt corporis voluptatem. Molestias et rerum veritatis iste consequatur, sed tempora placeat cumque dignissimos.
-        </p>
-    </div>
-    <ul>
-        <li>Lorem ipsum dolor</li>
-        <li>In magni</li>
-        <li> Et fugiat at</li>
-        <li>Consectetur</li>
-        <li>Sed tempora</li>
-        <li>Adipisicing elit</li>
-        <li>Harum </li>
-    </ul>
+    <main class="main">
+        <article class="conteiner-form">
+            <section class="register-form">
+                <h1 class="register-h">Register</h1>
+                <p>Create your account. It's free and only takes a minute</p>
+            </section>                        
+            <form action="#" name="form-register" class="" method="post">
+                <div class="form-name">
+                    <input type="text" name="firstname" placeholder="Ffirst Name">
+                    <input type="text" name="lastname" placeholder="Llas Nname">  
+                </div>
+                <div class="form-elem">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="password" name="password" placeholder="Password">
+                    <input type="password" name="comfirmpassword" placeholder="Comfirm Password">  
+                </div>                  
+                <label id="checkbox"
+                class="checkbox">
+                    <input type="checkbox" name="" id="checkbox">
+                    I accrpt the Terms of Use &  Privacy Policy.                    
+                </label>
+                <button class="btn-register" type="submit">Register Now</button>
+            </form>            
+        </article>
+    </main>    
 </body>
 </html>
